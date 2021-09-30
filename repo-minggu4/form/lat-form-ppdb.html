@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Penerimaam Peserta Didik Baru</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        span {
+            color: blue;
+        }
+        .Reza{
+            width: 300px;
+            color: white;
+            margin: 2px auto;
+            padding: 15px;
+        }
+        .form{
+            color: white;
+            width: 150px;
+            margin: 10px;
+            padding: 30px;
+        }
+    </style>
+</head>
+<body style="background:url(background.jpeg) ;background-size: cover;background-attachment: fixed;" >
+    <form action="form.php"></form>
+        <fieldset>
+        <div class="Reza">
+            <h1>Form <span> PPDB</span></h1>
+        </div>
+            <table class="form">
+
+                <tr>
+                    <td><b>*Info Pendaftaran Siswa</b></td></tr>
+                </tr>
+                    <td><b> NISN </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="NISN" placeholder="isikan NISN ... "></td>
+                </tr>
+                <tr>
+                    <td><b> Asal Sekolah </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="asal sekolah" placeholder="isikan asal sekolahmu ... "></td>
+                </tr>
+                <tr>
+                    <td><b> Tahun Lulus </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="tahun" placeholder="isikan tahun kelulusanmu ... "></td>
+                </tr>
+            <br>
+                <tr>
+                    <td><b>*Data Calon Peserta</b></td></tr>
+                </tr>
+                <tr>
+                    <td><b> Nama Lengkap </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="Nama"></td>
+                </tr>
+                <tr>
+                    <td><b> NIK </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="NIK"></td>
+                </tr>
+                <tr>
+                    <td><b> Tempat/Tanggal Lahir </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="Tempat" placeholder="*sertakan Fotocopy Akta Kelahiran"></td>
+                    <td><input type="date" name="tanggal lahir"></td>
+                </tr>
+                <tr>
+                    <td><b> Jenis Kelamin </b></td>
+                    <td>:</td>
+                    <td><input type="radio" name="jenis_kelamin" value="laki-laki">laki-laki</label>
+                    <label><input type="radio" name="jenis_kelamin" value="perempuan">perempuan</label>
+                </tr>
+                <tr>
+                    <td><b> Alamat </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="Alamat"></td>
+                </tr>
+                <tr>
+                    <td><b> Desa/kelurahan </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="Desa"></td>
+                </tr>
+                <tr>
+                    <td><b> Kecamatan </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="Kecamatan"></td>
+                </tr>
+                <tr>
+                    <td><b> Kabupaten </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="Kabupaten"></td>
+                </tr>
+                <tr>
+                    <td><b> Provinsi </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="Provinsi"></td>
+                </tr>
+                <tr>
+                    <td><b> Email </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="Email"></td>
+                </tr>
+            </br>
+                <tr>
+                    <td><b>*Data Orang Tua</b></td></tr>
+                </tr>
+                <tr>
+                    <td><b> Nomor Kartu Keluarga </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="No.kk"></td>
+                </tr>
+                <tr>
+                    <td><b> Nama Ayah Kandung </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="Nama_Ayah"></td>
+                </tr>
+                <tr>
+                    <td><b> Nama Lengkap </b></td>
+                    <td>:</td>
+                    <td><input type="text" name="Nama"></td>
+                </tr>
+                <tr>
+                    <td><b> Agama </b></td>
+                    <td>:</td>
+                    <td><select name="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="budha">Budha</option>
+                    </select></td>
+                </tr>
+            <tr>
+                <td><b> Pekerjaan </b></td>
+                <td>:</td>
+                <td><input type="text" name="pekerjaan_orang_tua"></td>
+            </tr>
+            <tr>
+                <td><b> Alamat Orang Tua </b></td>
+                <td>:</td>
+                <td><input type="text" name="Alamat"></td>
+            </tr>
+            <tr>
+                <td><b> Desa/kelurahan </b></td>
+                <td>:</td>
+                <td><input type="text" name="Desa"></td>
+            </tr>
+            <tr>
+                <td><b> Kecamatan </b></td>
+                <td>:</td>
+                <td><input type="text" name="Kecamatan"></td>
+            </tr>
+            <tr>
+                <td><b> Kabupaten </b></td>
+                <td>:</td>
+                <td><input type="text" name="Kabupaten"></td>
+            </tr>
+            <tr>
+                <td><b> Provinsi </b></td>
+                <td>:</td>
+                <td><input type="text" name="Provinsi"></td>
+            </tr>
+            <tr>
+                <td><input type="submit" name="submit" value="Kirim Form" /></td>
+            </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
