@@ -1,0 +1,21 @@
+body{
+    background: gray;
+    font-family: sans-serif;
+    color: #fff;
+}
+h1{
+    text-align: center;
+    width: 550px;
+}
+.kotak{
+    background: blue;
+    width: 200px;
+    height: 200px;
+    animation-name: animasi_kotak;
+    animation-duration: 2s;
+}
+
+@keyframes animasi_kotak{
+    form{ background: blue;}
+    to{ background: yellow;}
+}
